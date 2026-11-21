@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Meeting notes",
+    "description": "Record a meeting or upload audio, transcribe it with DeepSeek speech recognition into a timestamped transcript, and hand it to DSH for summaries and action items."
+  }
+}

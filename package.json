@@ -1,0 +1,56 @@
+{
+  "name": "dsh-meeting-asr",
+  "version": "0.1.0",
+  "private": true,
+  "description": "会议记录：DeepSeek 语音识别（ASR）实时转写与文件转写，逐字稿自动存档并交给 DSH 做摘要与待办。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "license": "MIT",
+  "author": "vines90",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vines90/dsh-meeting-asr.git"
+  },
+  "homepage": "https://github.com/vines90/dsh-meeting-asr#readme",
+  "bugs": {
+    "url": "https://github.com/vines90/dsh-meeting-asr/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "meeting",
+    "asr",
+    "speech-to-text",
+    "speaker-diarization",
+    "transcription"
+  ]
+}

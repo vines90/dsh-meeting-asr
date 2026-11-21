@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" role="img" aria-label="Meeting notes">
+  <rect x="1.5" y="1.5" width="29" height="29" rx="8" fill="#1F5FFF" fill-opacity="0.10" stroke="#1F5FFF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="13" y="7" width="6" height="11" rx="3" fill="#1F5FFF"/>
+  <path d="M9.5 15.5a6.5 6.5 0 0 0 13 0" stroke="#1F5FFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 22v3.2" stroke="#1F5FFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M12.4 25.6h7.2" stroke="#1F5FFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M6.2 12.6v4.2M4 13.8v1.8M25.8 12.6v4.2M28 13.8v1.8" stroke="#1F5FFF" stroke-opacity="0.55" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
