@@ -1,6 +1,6 @@
 {
   "name": "dsh-meeting-asr",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "private": true,
   "description": "会议记录：DeepSeek 语音识别（ASR）实时转写与文件转写，逐字稿自动存档并交给 DSH 做摘要与待办。",
   "type": "module",
